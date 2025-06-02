@@ -1,0 +1,55 @@
+{
+  "header": {
+    "home": "Početna",
+    "about": "O meni",
+    "skills": "Vještine",
+    "projects": "Projekti",
+    "contact": "Kontakt"
+  },
+  "hero": {
+    "greeting": "Zdravo, ja sam",
+    "name": "Vasilii Molćanov",
+    "title": "Full Stack Programer",
+    "description": "Sa 3 godine iskustva u izgradnji web aplikacija i servisa"
+  },
+  "about": {
+    "title": "O meni",
+    "age": "Godine: 20",
+    "location": "Lokacija: Crna Gora",
+    "languages": "Jezici: Ruski, Engleski, Crnogorsko-Srpski",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+  },
+  "skills": {
+    "title": "Moje vještine",
+    "frontend": "Frontend",
+    "backend": "Backend",
+    "tools": "Alati i ostalo"
+  },
+  "projects": {
+    "title": "Moji projekti",
+    "viewProject": "Pogledaj projekat",
+    "viewCode": "Pogledaj kod"
+  },
+  "contact": {
+    "title": "Kontaktiraj me",
+    "name": "Ime",
+    "email": "Email",
+    "message": "Poruka",
+    "send": "Pošalji poruku"
+  },
+  "footer": {
+    "rights": "Sva prava zadržana",
+    "madeWith": "Napravljeno sa React i Tailwind"
+  },
+  "carousel": {
+    "title": "Istaknuti projekti",
+    "image1": "Projekat 1: E-commerce platforma",
+    "image2": "Projekat 2: Dashboard za društvene mreže",
+    "image3": "Projekat 3: Mobilna bankarska aplikacija"
+  },
+  "language": {
+    "en": "Engleski",
+    "ru": "Ruski",
+    "me": "Crnogorski"
+  }
+}

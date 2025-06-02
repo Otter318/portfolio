@@ -1,0 +1,55 @@
+{
+  "header": {
+    "home": "Home",
+    "about": "About",
+    "skills": "Skills",
+    "projects": "Projects",
+    "contact": "Contact"
+  },
+  "hero": {
+    "greeting": "Hello, I'm",
+    "name": "Vasilii Molchanov",
+    "title": "Full Stack Developer",
+    "description": "With 3 years of experience building web applications and services"
+  },
+  "about": {
+    "title": "About Me",
+    "age": "Age: 20",
+    "location": "Location: Montenegro",
+    "languages": "Languages: Russian, English, Montenegrin-Serbian",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+  },
+  "skills": {
+    "title": "My Skills",
+    "frontend": "Frontend",
+    "backend": "Backend",
+    "tools": "Tools & Others"
+  },
+  "projects": {
+    "title": "My Projects",
+    "viewProject": "View Project",
+    "viewCode": "View Code"
+  },
+  "contact": {
+    "title": "Contact Me",
+    "name": "Name",
+    "email": "Email",
+    "message": "Message",
+    "send": "Send Message"
+  },
+  "footer": {
+    "rights": "All Rights Reserved",
+    "madeWith": "Made with React & Tailwind"
+  },
+  "carousel": {
+    "title": "Portfolio Highlights",
+    "image1": "Project 1: E-commerce Platform",
+    "image2": "Project 2: Social Media Dashboard",
+    "image3": "Project 3: Mobile Banking App"
+  },
+  "language": {
+    "en": "English",
+    "ru": "Russian",
+    "me": "Montenegrin"
+  }
+}
