@@ -16,13 +16,15 @@
     "title": "About Me",
     "age": "Age: 20",
     "location": "Location: Montenegro",
-    "languages": "Languages: Russian, English, Montenegrin-Serbian",
+    "languages": "Languages: Russian: C2, English: B2-C1:, Montenegrin-Serbian: B1-B2",
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
   },
   "skills": {
     "title": "My Skills",
     "frontend": "Frontend",
     "backend": "Backend",
+    "llm": "Large Language Model",
+    "ai": "Artificial Intelligence",
     "tools": "Tools & Others"
   },
   "projects": {

@@ -16,13 +16,15 @@
     "title": "O meni",
     "age": "Godine: 20",
     "location": "Lokacija: Crna Gora",
-    "languages": "Jezici: Ruski, Engleski, Crnogorsko-Srpski",
+    "languages": "Jezici: Ruski: C2, Engleski: B2-C1 , Crnogorsko-Srpski: B1-B2",
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
   },
   "skills": {
     "title": "Moje vještine",
     "frontend": "Frontend",
     "backend": "Backend",
+    "llm": "LLM",
+    "ai": "AI",
     "tools": "Alati i ostalo"
   },
   "projects": {

@@ -6,7 +6,7 @@ import PhotoCarousel from './components/PhotoCarousel';
 function App() {
   const { t } = useTranslation();
   const [isMenuOpen, setIsMenuOpen] = useState(false);
-  
+
   // Close menu when clicking outside
   useEffect(() => {
     const handleClickOutside = (event) => {
@@ -14,13 +14,13 @@ function App() {
         setIsMenuOpen(false);
       }
     };
-    
+
     document.addEventListener('click', handleClickOutside);
     return () => {
       document.removeEventListener('click', handleClickOutside);
     };
   }, [isMenuOpen]);
-  
+
   // Sample images for the carousel
   const carouselImages = [
     {
@@ -45,9 +45,9 @@ function App() {
       <header className="sticky top-0 bg-secondary shadow-md z-10">
         <nav className="container mx-auto px-4 py-4 flex flex-wrap items-center justify-between">
           <div className="text-2xl font-bold">Portfolio</div>
-          
+
           <div className="block lg:hidden">
-            <button 
+            <button
               id="mobile-menu-button"
               className="flex items-center px-3 py-2 border rounded text-gray-300 border-gray-400 hover:text-white hover:border-white"
               onClick={() => setIsMenuOpen(!isMenuOpen)}
@@ -55,13 +55,13 @@ function App() {
             >
               <svg className="fill-current h-5 w-5" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
                 <title>Menu</title>
-                <path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z"/>
+                <path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z" />
               </svg>
             </button>
           </div>
-          
-          <div 
-            className={`${isMenuOpen ? 'block' : 'hidden'} lg:flex lg:items-center lg:w-auto w-full`} 
+
+          <div
+            className={`${isMenuOpen ? 'block' : 'hidden'} lg:flex lg:items-center lg:w-auto w-full`}
             id="menu"
           >
             <div className="text-base lg:flex-grow flex flex-col lg:flex-row lg:space-x-6">
@@ -121,15 +121,15 @@ function App() {
               <div className="space-y-6">
                 <div>
                   <h4 className="text-xl font-medium text-accent mb-2">{t('skills.frontend')}</h4>
-                  <p className="text-lg text-gray-300">React, Vue, Angular, HTML5, CSS3, JavaScript, TypeScript, Tailwind CSS</p>
+                  <p className="text-lg text-gray-300">React, Vue, HTML5, CSS3, JavaScript, TypeScript, Tailwind CSS</p>
                 </div>
                 <div>
                   <h4 className="text-xl font-medium text-accent mb-2">{t('skills.backend')}</h4>
-                  <p className="text-lg text-gray-300">Node.js, Express, Django, Flask, PHP, MySQL, PostgreSQL, MongoDB</p>
+                  <p className="text-lg text-gray-300">Node.js, Flask, PHP, MySQL, PostgreSQL</p>
                 </div>
                 <div>
                   <h4 className="text-xl font-medium text-accent mb-2">{t('skills.tools')}</h4>
-                  <p className="text-lg text-gray-300">Git, Docker, AWS, Firebase, Webpack, Vite, Jest, Cypress</p>
+                  <p className="text-lg text-gray-300">Git (GitHub-GitLab), Docker, Vite, Supabase</p>
                 </div>
               </div>
             </div>
