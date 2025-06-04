@@ -45,13 +45,6 @@
     "catPhoto2": "Luna uživa na suncu",
     "catPhoto3": "Max spava na mojoj tastaturi"
   },
-  "contact": {
-    "title": "Kontaktiraj me",
-    "name": "Ime",
-    "email": "Email",
-    "message": "Poruka",
-    "send": "Pošalji poruku"
-  },
   "footer": {
     "rights": "Sva prava zadržana",
     "madeWith": "Napravljeno sa React i Tailwind"

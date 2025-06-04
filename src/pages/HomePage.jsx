@@ -76,12 +76,7 @@ const HomePage = () => {
             <section id="contact" className="section container mx-auto px-4">
                 <h2 className="text-3xl sm:text-4xl font-bold mb-8 text-center">{t('contact.title')}</h2>
                 <div className="max-w-md mx-auto mt-8">
-                    <form className="space-y-6">
-                        <div>
-                            <label htmlFor="name" className="block text-lg font-medium text-gray-300 mb-2">{t('contact.name')}</label>
-                            <input type="text" id="name" className="w-full px-4 py-3 rounded bg-secondary border border-accent text-white text-lg focus:outline-none focus:ring-2 focus:ring-accent" />
-                        </div>
-                    </form>
+
                 </div>
             </section>
         </div>

@@ -44,13 +44,6 @@
     "catPhoto2": "Luna enjoying the sunshine",
     "catPhoto3": "Max sleeping on my keyboard"
   },
-  "contact": {
-    "title": "Contact Me",
-    "name": "Name",
-    "email": "Email",
-    "message": "Message",
-    "send": "Send Message"
-  },
   "footer": {
     "rights": "All Rights Reserved",
     "madeWith": "Made with React & Tailwind"
