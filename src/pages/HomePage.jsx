@@ -58,15 +58,15 @@ const HomePage = () => {
                         <div className="space-y-6">
                             <div>
                                 <h4 className="text-xl font-medium text-accent mb-2">{t('skills.frontend')}</h4>
-                                <p className="text-lg text-gray-300">React, Vue, Angular, HTML5, CSS3, JavaScript, TypeScript, Tailwind CSS</p>
+                                <p className="text-lg text-gray-300">React, Vue, HTML5, CSS3, JavaScript, TypeScript, Tailwind CSS</p>
                             </div>
                             <div>
                                 <h4 className="text-xl font-medium text-accent mb-2">{t('skills.backend')}</h4>
-                                <p className="text-lg text-gray-300">Node.js, Express, Django, Flask, PHP, MySQL, PostgreSQL, MongoDB</p>
+                                <p className="text-lg text-gray-300">Node.js, Flask, PHP, MySQL, PostgreSQL, LiteSQL, AOuth, phpmailer</p>
                             </div>
                             <div>
                                 <h4 className="text-xl font-medium text-accent mb-2">{t('skills.tools')}</h4>
-                                <p className="text-lg text-gray-300">Git, Docker, AWS, Firebase, Webpack, Vite, Jest, Cypress</p>
+                                <p className="text-lg text-gray-300">Git, Docker, Vite, CI/CD</p>
                             </div>
                         </div>
                     </div>
@@ -81,15 +81,6 @@ const HomePage = () => {
                             <label htmlFor="name" className="block text-lg font-medium text-gray-300 mb-2">{t('contact.name')}</label>
                             <input type="text" id="name" className="w-full px-4 py-3 rounded bg-secondary border border-accent text-white text-lg focus:outline-none focus:ring-2 focus:ring-accent" />
                         </div>
-                        <div>
-                            <label htmlFor="email" className="block text-lg font-medium text-gray-300 mb-2">{t('contact.email')}</label>
-                            <input type="email" id="email" className="w-full px-4 py-3 rounded bg-secondary border border-accent text-white text-lg focus:outline-none focus:ring-2 focus:ring-accent" />
-                        </div>
-                        <div>
-                            <label htmlFor="message" className="block text-lg font-medium text-gray-300 mb-2">{t('contact.message')}</label>
-                            <textarea id="message" rows="4" className="w-full px-4 py-3 rounded bg-secondary border border-accent text-white text-lg focus:outline-none focus:ring-2 focus:ring-accent"></textarea>
-                        </div>
-                        <button type="submit" className="w-full btn btn-primary text-lg py-3">{t('contact.send')}</button>
                     </form>
                 </div>
             </section>
