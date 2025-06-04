@@ -4,6 +4,7 @@
     "about": "About",
     "skills": "Skills",
     "projects": "Projects",
+    "lifeOutside": "Life Outside of Work",
     "contact": "Contact"
   },
   "hero": {
@@ -17,7 +18,8 @@
     "age": "Age: 20",
     "location": "Location: Montenegro",
     "languages": "Languages: Russian: C2, English: B2-C1:, Montenegrin-Serbian: B1-B2",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+    "lifeOutside": "Life Outside of Work",
+    "description": "I am a 20-year-old Full Stack Developer based in Montenegro with 3 years of experience in building web applications and services. I am multilingual, fluent in Russian (C2), English (B2-C1), and Montenegrin-Serbian (B1-B2). My technical expertise spans across frontend development with React, Vue, HTML5, CSS3, JavaScript, TypeScript, and Tailwind CSS; backend development with Node.js, Flask, PHP, MySQL, and PostgreSQL; and various tools including Git (GitHub-GitLab), Docker, Vite, and Supabase. I have worked on diverse projects including e-commerce platforms, social media dashboards, and mobile banking applications. I am passionate about creating efficient, user-friendly web solutions and continuously expanding my knowledge in the field of web development."
   },
   "skills": {
     "title": "My Skills",
