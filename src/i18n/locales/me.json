@@ -4,6 +4,7 @@
     "about": "O meni",
     "skills": "Vještine",
     "projects": "Projekti",
+    "lifeOutside": "Život van posla",
     "contact": "Kontakt"
   },
   "hero": {
@@ -17,7 +18,7 @@
     "age": "Godine: 20",
     "location": "Lokacija: Crna Gora",
     "languages": "Jezici: Ruski: C2, Engleski: B2-C1 , Crnogorsko-Srpski: B1-B2",
-    "lifeOutside": "Život van posla",
+
     "description": "Ja sam 20-godišnji Full Stack programer iz Crne Gore sa 3 godine iskustva u izgradnji web aplikacija i servisa. Govorim nekoliko jezika: ruski (C2), engleski (B2-C1) i crnogorsko-srpski (B1-B2). Moje tehničke vještine obuhvataju frontend razvoj koristeći React, Vue, HTML5, CSS3, JavaScript, TypeScript i Tailwind CSS; backend razvoj sa Node.js, Flask, PHP, MySQL i PostgreSQL; kao i različite alate, uključujući Git (GitHub-GitLab), Docker, Vite i Supabase. Radio sam na različitim projektima, uključujući platforme za e-trgovinu, kontrolne table za društvene mreže i mobilne bankarske aplikacije. Strastven sam u kreiranju efikasnih, korisnički prijateljskih web rješenja i kontinuirano proširujem svoje znanje u oblasti web razvoja."
   },
   "skills": {
@@ -32,6 +33,17 @@
     "title": "Moji projekti",
     "viewProject": "Pogledaj projekat",
     "viewCode": "Pogledaj kod"
+  },
+  "lifeOutside": {
+    "title": "Život van posla",
+    "subtitle": "Kada ne kodiram, volim...",
+    "hobbies": "Moji hobiji",
+    "hobbiesDescription": "U slobodno vrijeme, volim da istražujem različite aktivnosti koje mi pomažu da se opustim i ostanem kreativan.",
+    "cats": "Moje mačke",
+    "catsDescription": "Upoznajte moje dlakave prijatelje koji mi prave društvo tokom dugih sesija kodiranja.",
+    "catPhoto1": "Moja razigrana mačka Whiskers",
+    "catPhoto2": "Luna uživa na suncu",
+    "catPhoto3": "Max spava na mojoj tastaturi"
   },
   "contact": {
     "title": "Kontaktiraj me",
